@@ -1,6 +1,6 @@
 {
     "application": {
-        "title": "Requirements Engineering Friend Tracker (FS2026)",
+        "title": " Muizz Friend Tracker (FS2026)",
         "formList": [
             {
                 "id": "FriendForm",
@@ -21,6 +21,13 @@
                         "width": 1,
                         "required": true
                     },
+                    {
+"id": "nickname",
+"type": "text",
+"name": "Nickname",
+"width": 2,
+"required": true
+},
                     {
                         "id":   "location",
                         "type": "autocomplete",
@@ -131,7 +138,13 @@
                         "icon": "fa-cubes",
                         "color": "yellow",
                         "page": "locationspage"
-                    }
+                    } ,{
+"type": "button",
+"name": "Groups",
+"icon": "fa-weixin",
+"color": "wisteria",
+"page": "groupspage"
+}
                 ]
             },
             {
